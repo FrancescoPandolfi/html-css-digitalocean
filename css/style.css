@@ -1,4 +1,18 @@
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.text-white {
+  color: white;
+}
+
+
+
 
 /* HEADER */
 .logo {
@@ -6,6 +20,7 @@
 
 }
 
+/* NAV */
 nav {
   height: 66px;
   width: 100%;
@@ -15,9 +30,48 @@ nav {
   z-index: 1030;
 }
 
+/* JUMBOTRON */
 .jumbo {
   margin-top: 66px;
   background-image: url(../img/bg-home-1-d54581d7.jpg);
   background-size: cover;
   padding: 60px 0;
+}
+.get_started {
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+/* MAIN */
+
+
+/* SECTION LOGOS */
+#logos {
+  background-color: #f3f5f9
+}
+
+/* SECTION DESIGNED */
+#designed {
+  background-color: #f3f5f9
+}
+
+/* SECTION CUSTOMERS */
+#customers {
+  background: linear-gradient(0deg, rgba(0,30,154,1) 0%, rgba(0,71,197,1) 100%);
+}
+
+/* SECTION TEAMS */
+#teams {
+  background-color: #f3f5f9
+}
+
+/* SECTION NOW */
+#now {
+  background: linear-gradient(0deg, rgba(0,30,154,1) 0%, rgba(0,71,197,1) 100%);
+}
+
+/* FOOTER */
+footer {
+  background-color: #031c4e;
 }
