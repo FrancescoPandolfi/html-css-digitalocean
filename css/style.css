@@ -1,0 +1,23 @@
+
+
+/* HEADER */
+.logo {
+  width: 160px;
+
+}
+
+nav {
+  height: 66px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  line-height: 66px;
+  z-index: 1030;
+}
+
+.jumbo {
+  margin-top: 66px;
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+  padding: 60px 0;
+}
