@@ -18,14 +18,13 @@ h1 {
     font-size: 40px;
   }
 }
-
 h2 {
   font-size: 36px;
   color: #031b4e;
   font-weight: 500;
   text-align: center;
   margin-top: 0;
-  padding-top: 0
+  padding-top: 0;
   padding-bottom: 20px;
 }
 h3 {
@@ -61,6 +60,9 @@ text-decoration: none;
 .p_top_30px {
   padding-top: 30px;
 }
+.m_bot_30 {
+  margin-bottom: 30px;
+}
 
 
 /* HEADER */
@@ -78,20 +80,28 @@ nav {
   z-index: 1030;
   background-color: white;
 }
-.nav_item {
+a.nav_item {
   font-size: 14px;
   padding: 0 10px;
   font-weight: 500;
   color: #031c4e;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 a:hover.nav_item {
   text-decoration: none;
   color: #3a8aff;
 }
-.sign_up {
+a.sign_up {
   color: #006aff;
   border: 1px solid #006aff;
   border-radius: 5px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 a:hover.sign_up {
   color: white;
@@ -140,6 +150,11 @@ a:hover.sign_up {
   color: white;
   height: 40px;
   display: block;
+  transition: background-color 0.4s ease-out;
+}
+.btn_account:hover {
+  color: white;
+  background-color: #216cdb;
 }
 .btn_google {
   height: 40px;
@@ -147,7 +162,14 @@ a:hover.sign_up {
   display: block;
   margin-top: 10px;
   position: relative;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #bfd9fe;
+  background-color: #eff7ff;
+  color: #031c4e;
+  font-weight: 700;
+  transition: background-color 0.4s ease-out;
+}
+.btn_google:hover {
+  background-color: #D5E4F7;
 }
 .ggl_icon {
   position: absolute;
@@ -196,13 +218,17 @@ MAIN
   color: #5c6a88;
   text-align: center;
 }
-.btn_deploy {
+a.btn_deploy {
   display: block;
   border-left: 2px solid #cccccc;
   height: 50px;
   line-height: 50px;
   padding-left: 12px;
-  color: #75809a
+  color: #75809a;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 a:hover.btn_deploy {
   color: #006aff;
@@ -280,6 +306,26 @@ hr {
 #teams {
   background-color: #f3f5f9
 }
+.box_teams {
+  background: white;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+  padding: 80px 20px;
+}
+.link_teams {
+  display: block;
+  font-size: 18px;
+}
+.chevron2 {
+  padding-top: 180px;
+  font-size: 30px;
+}
+.chevron2:hover {
+  color: #031c4e;
+  cursor: pointer;
+}
+
 
 /* SECTION NOW */
 #now {
@@ -322,4 +368,20 @@ footer p {
 footer a:hover {
   color: white;
   text-decoration: none;
+}
+.ico_footer {
+  font-size: 22px;
+  margin-right: 10px;
+}
+.ico_footer:hover {
+  color: white;
+}
+.p_footer {
+  color: #5a6887;
+  font-weight: 400;
+  font-size: 14px;
+}
+.margin_0 {
+  margin: 0;
+  font-weight: 400;
 }
