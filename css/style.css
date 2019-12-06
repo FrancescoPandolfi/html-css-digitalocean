@@ -34,11 +34,13 @@ h3 {
 .text-white {
   color: white;
 }
-.link {
-  color: #005ff9;
-}
 a.link {
+  color: #005ff9;
   font-weight: 500;
+  -webkit-transition: color 0.4s ease-out;
+  -moz-transition: color 0.4s ease-out;
+  -o-transition: color 0.4s ease-out;
+  transition: color 0.4s ease-out;
 }
 a:hover.link{
 color: #0053c9;
@@ -110,6 +112,13 @@ a:hover.sign_up {
 .hamburger {
   color: #3a8aff;
   font-size: 20px;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+.hamburger:hover {
+  color: #0b49a3;
 }
 
 /* JUMBOTRON */
@@ -225,10 +234,10 @@ a.btn_deploy {
   line-height: 50px;
   padding-left: 12px;
   color: #75809a;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: border 0.4s ease-out;
+  -moz-transition: border 0.4s ease-out;
+  -o-transition: border 0.4s ease-out;
+  transition: border 0.4s ease-out;
 }
 a:hover.btn_deploy {
   color: #006aff;
@@ -250,6 +259,10 @@ color: #006aff;
 .chevron {
   padding-top: 225px;
   font-size: 30px;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 .chevron:hover {
   color: #031c4e;
@@ -265,13 +278,17 @@ color: #006aff;
     padding-top: 130px;
   }
 }
-.dots {
+a.dots {
   height: 12px;
   width: 12px;
   border: 1px solid #006aff;
   border-radius: 50%;
   display: inline-block;
   margin: 3px;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 .dots_active,
 a:hover.dots {
@@ -289,7 +306,11 @@ font-size: 13px;
 }
 a.test_speed {
   font-size: 13px;
-  color: #00d5d1
+  color: #00d5d1;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 a:hover.test_speed {
   color: #006aff;
@@ -320,6 +341,10 @@ hr {
 .chevron2 {
   padding-top: 180px;
   font-size: 30px;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 .chevron2:hover {
   color: #031c4e;
@@ -338,6 +363,10 @@ a.btn_create {
   padding: 15px;
   font-size: 18px;
   color: #0069ff;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
 }
 a:hover.btn_create{
   opacity: 0.7;
@@ -359,6 +388,10 @@ footer a {
   color: #a6adbd;
   display: block;
   margin-bottom: 10px;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 footer p {
   font-weight: 500;
@@ -372,6 +405,10 @@ footer a:hover {
 .ico_footer {
   font-size: 22px;
   margin-right: 10px;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 .ico_footer:hover {
   color: white;
