@@ -1,26 +1,54 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgba(3, 27, 78, 0.7)
 }
-
 h1 {
   font-size: 60px;
   font-weight: 700;
 }
 h2 {
-  color: #031b4e
+  font-size: 36px;
+  color: #031b4e;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 20px;
 }
 .text-white {
   color: white;
 }
-
-
-
+.link {
+  color: #005ff9;
+  font-size: 16px;
+}
+a.link {
+  font-weight: 500;
+}
+a:hover.link{
+color: #005fe6;
+text-decoration: none;
+}
+.translate {
+  display: block;
+  transform: translate(0, -25px);
+}
+.padding_100 {
+  padding: 100px 0;
+}
+.padding_bot {
+  padding-bottom: 70px;
+}
+.padding_bot_20 {
+  padding-bottom: 20px;
+}
+.p_top_30px {
+  padding-top: 30px;
+}
 
 /* HEADER */
 .logo {
   width: 160px;
-
 }
 
 /* NAV */
@@ -33,11 +61,35 @@ nav {
   z-index: 1030;
   background-color: white;
 }
+.nav_item {
+  font-size: 14px;
+  padding: 0 10px;
+  font-weight: 500;
+  color: #031c4e;
+}
+a:hover.nav_item {
+  text-decoration: none;
+  color: #3a8aff;
+}
+.sign_up {
+  color: #006aff;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+}
+a:hover.sign_up {
+  color: white;
+  background-color: #006aff;
+}
+.hamburger {
+  color: #3a8aff;
+  font-size: 20px;
+}
 
 /* JUMBOTRON */
 .jumbo {
   margin-top: 66px;
   background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-position: center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -47,8 +99,9 @@ nav {
   padding: 25px;
 }
 
-/* MAIN */
-
+/* *********
+MAIN
+********* */
 
 /* SECTION LOGOS */
 #logos {
@@ -75,10 +128,65 @@ nav {
   }
 }
 
+/* SECTION DEPLOY */
+.text {
+  font-size: 20px;
+  color: #5c6a88;
+  text-align: center;
+}
+.btn_deploy {
+  display: block;
+  border-left: 2px solid #cccccc;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 12px;
+  color: #75809a
+}
+a:hover.btn_deploy {
+  color: #006aff;
+  border-left: 2px solid #006aff;
+  text-decoration: none;
+}
+.btn_deploy.btn_deploy_active {
+border-left: 2px solid #006aff;
+color: #006aff;
+}
+
 /* SECTION DESIGNED */
 #designed {
   background-color: #f3f5f9
 }
+.width_100 {
+  width: 100%;
+}
+.chevron {
+  padding-top: 225px;
+  font-size: 30px;
+}
+@media screen and (max-width: 1199px) {
+  .chevron {
+    padding-top: 180px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .chevron {
+    padding-top: 130px;
+  }
+}
+.dots {
+  height: 12px;
+  width: 12px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+.dots_active,
+a:hover.dots {
+  background-color: #006aff;
+}
+
+
 
 /* SECTION CUSTOMERS */
 #customers {
@@ -98,4 +206,21 @@ nav {
 /* FOOTER */
 footer {
   background-color: #031c4e;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #8892a7;
+}
+footer a {
+  color: #a6adbd;
+  display: block;
+  margin-bottom: 10px;
+}
+footer p {
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
 }
