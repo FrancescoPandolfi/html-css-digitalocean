@@ -468,5 +468,5 @@ footer a:hover {
   width: 300px;
   border-radius: 5px;
   vertical-align: bottom;
-  box-shadow: 0px 0px 5px;
+  box-shadow: 0px 0px 8px rgba(3,27,78,.1)
 }
