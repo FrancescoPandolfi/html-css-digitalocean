@@ -468,5 +468,20 @@ footer a:hover {
   width: 300px;
   border-radius: 5px;
   vertical-align: bottom;
-  box-shadow: 0px 0px 8px rgba(3,27,78,.1)
+  box-shadow: 0px 0px 8px rgba(3,27,78,.1);
+  position: relative;
+}
+
+.chat_text:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 60%;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	margin-top: -9px;
+	margin-right: -9px;
 }
