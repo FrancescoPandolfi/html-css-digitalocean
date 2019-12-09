@@ -412,6 +412,7 @@ footer a:hover {
 }
 .ico_footer:hover {
   color: white;
+  cursor: pointer;
 }
 .p_footer {
   color: #5a6887;
@@ -421,4 +422,50 @@ footer a:hover {
 .margin_0 {
   margin: 0;
   font-weight: 400;
+}
+.chat {
+  position: fixed;
+  z-index: 1000;
+  right: 30px;
+  bottom: 40px;
+  vertical-align: bottom;
+  height: 70px;
+  padding-right: 10px;
+}
+.chat_icon img {
+  width: 54px;
+}
+.chat_icon {
+  width: 60px;
+  height: 60px;
+  padding: 8px 3px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #006aff;
+  margin-left: 20px;
+}
+.chat_icon:after {
+  position: absolute;
+  content: "3";
+  background-color: red;
+  border: 3px solid white;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.chat_text {
+  display: inline-block;
+  background-color: white;
+  height: 70px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  vertical-align: bottom;
+  box-shadow: 0px 0px 5px;
 }
