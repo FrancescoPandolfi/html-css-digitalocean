@@ -81,6 +81,7 @@ nav {
   line-height: 66px;
   z-index: 1030;
   background-color: white;
+  box-shadow: 0 2px 4px rgba(3,27,78,.1)
 }
 a.nav_item {
   font-size: 14px;
